@@ -1,0 +1,29 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/api/src",
+  "root": "apps/api",
+  "monorepo": true,
+  "compilerOptions": {
+    "webpack": false,
+    "watchAssets": true,
+    "tsConfigPath": "tsconfig.json"
+  },
+  "projects": {
+    "api": {
+      "type": "application",
+      "root": "apps/api",
+      "entryFile": "main",
+      "sourceRoot": "apps/api/src",
+      "compilerOptions": {
+        "deleteOutDir": true,
+        "tsConfigPath": "apps/api/tsconfig.json",
+        "assets": [
+          {
+            "include": "../config/*",
+            "outDir": "./dist/apps/api/config"
+          }
+        ]
+      }
+    }
+  }
+}

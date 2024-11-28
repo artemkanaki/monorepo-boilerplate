@@ -1,0 +1,10 @@
+{
+  "name": "@lib/common",
+  "version": "1.0.0",
+  "description": "Library with core building blocks",
+  "packageManager": "npm@10.7.0",
+  "main": "./dist/index.js",
+  "dependencies": {
+    "@nestjs/common": "^10.3.10"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@lib/logger",
+  "version": "1.0.0",
+  "description": "Library with logging utilities",
+  "packageManager": "npm@10.7.0",
+  "main": "./dist/index.js",
+  "devDependencies": {
+    "winston": "^3.13.1"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.3.10"
+  }
+}

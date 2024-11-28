@@ -1,0 +1,9 @@
+{
+  "name": "@lib/cache",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ioredis": "^5.4.1"
+  }
+}

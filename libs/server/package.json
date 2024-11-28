@@ -1,0 +1,18 @@
+{
+  "name": "@lib/server",
+  "version": "1.0.0",
+  "description": "Library with server utilities",
+  "packageManager": "npm@10.7.0",
+  "main": "./dist/index.js",
+  "nx": {
+    "tags": ["scope:shared"]
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.3.10",
+    "express": "^4.19.2",
+    "cookie-parser": "^1.4.6"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.7"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "@lib/context",
+  "version": "1.0.0",
+  "description": "Context library",
+  "packageManager": "npm@10.7.0",
+  "main": "./dist/index.js"
+}
